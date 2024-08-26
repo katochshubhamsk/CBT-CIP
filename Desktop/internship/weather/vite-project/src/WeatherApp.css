@@ -1,0 +1,61 @@
+/* WeatherApp.css */
+.weather-app {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-app input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.weather-app button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.weather-app button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.error {
+    color: #dc3545;
+    margin-top: 10px;
+}
